@@ -1,6 +1,6 @@
 # ZMK Corne Keyboard Layout
 - Corne 6 column
-- Controller: nice!nano v2 + nice!view (for both left and right keyboard)
+- Controller: nice!nano v2 + nice!view
 - Dongle: Seed Xiao nRF52840
 
 
