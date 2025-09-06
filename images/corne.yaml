@@ -1,51 +1,50 @@
 layout: {zmk_keyboard: corne}
 layers:
-  default: ['$$mdi:keyboard-tab$$', Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '$$mdi:keyboard-return$$',
-    '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$', lower, '$$mdi:keyboard-space$$',
-    '$$mdi:keyboard-space$$', raise, '$$mdi:apple-keyboard-option$$']
+  default: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LCTRL, A, S, D, F, G, H, J, K, L, ;, RET, LSHFT, Z, X, C, V, B, N, M, ',', ., /, RSHFT, LGUI, lower, SPACE, SPACE,
+    raise, RALT]
   lower:
-  - $$mdi:keyboard-esc$$
+  - ESC
   - ''
   - '7'
   - '8'
   - '9'
   - PAGE UP
-  - ⌘⇧J
-  - Tab Left
-  - Tab Right
+  - Gui+Sft+J
+  - Ctl+Sft+TAB
+  - Ctl+TAB
   - ''
   - ''
-  - $$mdi:backspace-reverse-outline$$
-  - $$mdi:apple-keyboard-control$$
+  - DELETE
+  - LCTRL
   - ''
   - '4'
   - '5'
   - '6'
   - PAGE DOWN
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
   - ''
-  - $$mdi:keyboard-return$$
-  - $$mdi:apple-keyboard-shift$$
+  - RET
+  - LSHFT
   - ''
   - '1'
   - '2'
   - '3'
   - '0'
-  - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
+  - VOL DN
+  - VOL UP
   - ''
   - ''
   - ''
-  - ⌘⇧
-  - $$mdi:apple-keyboard-command$$
+  - Gui+LSHFT
+  - LGUI
   - {t: lower, type: held}
-  - $$mdi:keyboard-space$$
-  - ⌘⌥⎵
+  - SPACE
+  - Gui+Alt+SPACE
   - raise
-  - $$mdi:apple-keyboard-option$$
+  - RALT
   raise:
   - '`'
   - '!'
@@ -59,7 +58,7 @@ layers:
   - +
   - '='
   - '-'
-  - $$mdi:apple-keyboard-control$$
+  - LCTRL
   - ''
   - '{'
   - (
@@ -70,8 +69,8 @@ layers:
   - )
   - '}'
   - \
-  - $$mdi:keyboard-return$$
-  - $$mdi:apple-keyboard-shift$$
+  - RET
+  - LSHFT
   - ''
   - ''
   - ''
@@ -82,10 +81,10 @@ layers:
   - ''
   - ''
   - ''
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-command$$
+  - RSHFT
+  - LGUI
   - lower
-  - ⌃⎵
-  - $$mdi:keyboard-space$$
+  - Ctl+SPACE
+  - SPACE
   - {t: raise, type: held}
-  - $$mdi:apple-keyboard-option$$
+  - RALT
